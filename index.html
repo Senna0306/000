@@ -1,274 +1,49 @@
-<html>
-  <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
-    <link
-      rel="stylesheet"
-      as="style"
-      onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
-    />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galileo Design</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
 
-    <title>Galileo Design</title>
-    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-  </head>
-  <body>
-    <div
-      class="relative flex size-full min-h-screen flex-col bg-[#f8fafb] justify-between group/design-root overflow-x-hidden"
-      style='font-family: Lexend, "Noto Sans", sans-serif;'
-    >
-      <div>
-        <div class="flex items-center bg-[#f8fafb] p-4 pb-2 justify-between">
-          <h2 class="text-[#0e161b] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">Study Abroad</h2>
-          <div class="flex w-12 items-center justify-end">
-            <button
-              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 bg-transparent text-[#0e161b] gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
-            >
-              <div class="text-[#0e161b]" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                  <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
-                </svg>
-              </div>
-            </button>
-          </div>
-        </div>
-        <div class="@container">
-          <div class="@[480px]:p-4">
-            <div
-              class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
-              style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://cdn.usegalileo.ai/stability/39cd63cf-a43f-45cf-b95a-b8265979faa1.png");'
-            >
-              <div class="flex flex-col gap-2 text-center">
-                <h1
-                  class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
-                >
-                  Explore the world with us
-                </h1>
-                <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
-                  We offer a variety of programs and services to help you achieve your academic and professional goals.
-                </h2>
-              </div>
-              <button
-                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#2c99e2] text-[#f8fafb] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
-              >
-                <span class="truncate">Get started</span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col gap-10 px-4 py-10 @container">
-          <h1
-            class="text-[#0e161b] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
-          >
-            Our Services
-          </h1>
-          <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-0">
-            <div class="flex flex-1 gap-3 rounded-lg border border-[#d1dde6] bg-[#f8fafb] p-4 flex-col">
-              <div class="text-[#0e161b]" data-icon="MapTrifold" data-size="24px" data-weight="regular">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                  <path
-                    d="M228.92,49.69a8,8,0,0,0-6.86-1.45L160.93,63.52,99.58,32.84a8,8,0,0,0-5.52-.6l-64,16A8,8,0,0,0,24,56V200a8,8,0,0,0,9.94,7.76l61.13-15.28,61.35,30.68A8.15,8.15,0,0,0,160,224a8,8,0,0,0,1.94-.24l64-16A8,8,0,0,0,232,200V56A8,8,0,0,0,228.92,49.69ZM104,52.94l48,24V203.06l-48-24ZM40,62.25l48-12v127.5l-48,12Zm176,131.5-48,12V78.25l48-12Z"
-                  ></path>
-                </svg>
-              </div>
-              <div class="flex flex-col gap-1">
-                <h2 class="text-[#0e161b] text-base font-bold leading-tight">Program planning</h2>
-                <p class="text-[#507a95] text-sm font-normal leading-normal">Plan your study abroad journey with our expert advisors.</p>
-              </div>
-            </div>
-            <div class="flex flex-1 gap-3 rounded-lg border border-[#d1dde6] bg-[#f8fafb] p-4 flex-col">
-              <div class="text-[#0e161b]" data-icon="PencilSimple" data-size="24px" data-weight="regular">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                  <path
-                    d="M227.31,73.37,182.63,28.68a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H92.69A15.86,15.86,0,0,0,104,219.31L227.31,96a16,16,0,0,0,0-22.63ZM92.69,208H48V163.31l88-88L180.69,120ZM192,108.68,147.31,64l24-24L216,84.68Z"
-                  ></path>
-                </svg>
-              </div>
-              <div class="flex flex-col gap-1">
-                <h2 class="text-[#0e161b] text-base font-bold leading-tight">Course application</h2>
-                <p class="text-[#507a95] text-sm font-normal leading-normal">Apply for courses in top universities worldwide.</p>
-              </div>
-            </div>
-            <div class="flex flex-1 gap-3 rounded-lg border border-[#d1dde6] bg-[#f8fafb] p-4 flex-col">
-              <div class="text-[#0e161b]" data-icon="ChatTeardropDots" data-size="24px" data-weight="regular">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                  <path
-                    d="M132,24A100.11,100.11,0,0,0,32,124v84.33A15.69,15.69,0,0,0,47.67,224H132a100,100,0,0,0,0-200Zm0,184H48V124a84,84,0,1,1,84,84Zm12-80a12,12,0,1,1-12-12A12,12,0,0,1,144,128Zm-44,0a12,12,0,1,1-12-12A12,12,0,0,1,100,128Zm88,0a12,12,0,1,1-12-12A12,12,0,0,1,188,128Z"
-                  ></path>
-                </svg>
-              </div>
-              <div class="flex flex-col gap-1">
-                <h2 class="text-[#0e161b] text-base font-bold leading-tight">Visa consulting</h2>
-                <p class="text-[#507a95] text-sm font-normal leading-normal">Get assistance with visa application and immigration process.</p>
-              </div>
-            </div>
-            <div class="flex flex-1 gap-3 rounded-lg border border-[#d1dde6] bg-[#f8fafb] p-4 flex-col">
-              <div class="text-[#0e161b]" data-icon="ShieldCheck" data-size="24px" data-weight="regular">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                  <path
-                    d="M208,40H48A16,16,0,0,0,32,56v58.78c0,89.61,75.82,119.34,91,124.39a15.53,15.53,0,0,0,10,0c15.2-5.05,91-34.78,91-124.39V56A16,16,0,0,0,208,40Zm0,74.79c0,78.42-66.35,104.62-80,109.18-13.53-4.51-80-30.69-80-109.18V56H208ZM82.34,141.66a8,8,0,0,1,11.32-11.32L112,148.68l50.34-50.34a8,8,0,0,1,11.32,11.32l-56,56a8,8,0,0,1-11.32,0Z"
-                  ></path>
-                </svg>
-              </div>
-              <div class="flex flex-col gap-1">
-                <h2 class="text-[#0e161b] text-base font-bold leading-tight">Safety support</h2>
-                <p class="text-[#507a95] text-sm font-normal leading-normal">Feel safe throughout your journey with our 24/7 support.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
-          <div class="flex items-stretch p-4 gap-3">
-            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-              <div
-                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                style='background-image: url("https://cdn.usegalileo.ai/stability/ffbd9444-342d-43b9-9da2-c7a6b4340297.png");'
-              ></div>
-              <div>
-                <p class="text-[#0e161b] text-base font-medium leading-normal">Stanford University</p>
-                <p class="text-[#507a95] text-sm font-normal leading-normal">Courses available</p>
-              </div>
-            </div>
-            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-              <div
-                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                style='background-image: url("https://cdn.usegalileo.ai/stability/e2176f26-6c7b-437f-9d3e-14d26c923d31.png");'
-              ></div>
-              <div>
-                <p class="text-[#0e161b] text-base font-medium leading-normal">University of Sydney</p>
-                <p class="text-[#507a95] text-sm font-normal leading-normal">Courses available</p>
-              </div>
-            </div>
-            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-              <div
-                class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex flex-col"
-                style='background-image: url("https://cdn.usegalileo.ai/stability/3ec3d5e5-89d0-495a-8615-97cb9edc0371.png");'
-              ></div>
-              <div>
-                <p class="text-[#0e161b] text-base font-medium leading-normal">Oxford University</p>
-                <p class="text-[#507a95] text-sm font-normal leading-normal">New program</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <h2 class="text-[#0e161b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Customer Success</h2>
-        <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
-          <div class="flex flex-col gap-3 text-center pb-3">
-            <div class="px-4">
-              <div
-                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full"
-                style='background-image: url("https://cdn.usegalileo.ai/stability/5d1fd437-11e0-479b-9125-3b178e2c91c2.png");'
-              ></div>
-            </div>
-            <p class="text-[#0e161b] text-base font-medium leading-normal">Irene, University of Sydney</p>
-          </div>
-          <div class="flex flex-col gap-3 text-center pb-3">
-            <div class="px-4">
-              <div
-                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full"
-                style='background-image: url("https://cdn.usegalileo.ai/stability/c608b900-4afc-4944-bfba-2cf5a9119e6f.png");'
-              ></div>
-            </div>
-            <p class="text-[#0e161b] text-base font-medium leading-normal">Ava, Stanford University</p>
-          </div>
-          <div class="flex flex-col gap-3 text-center pb-3">
-            <div class="px-4">
-              <div
-                class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-full"
-                style='background-image: url("https://cdn.usegalileo.ai/stability/8107de8e-6b58-43aa-ba2c-8e68e23135f7.png");'
-              ></div>
-            </div>
-            <p class="text-[#0e161b] text-base font-medium leading-normal">Ella, Trinity College Dublin</p>
-          </div>
-        </div>
-        <h2 class="text-[#0e161b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Popular Programs</h2>
-        <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
-          <div class="flex flex-col gap-3 pb-3">
-            <div
-              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
-              style='background-image: url("https://cdn.usegalileo.ai/stability/a2c2ef5b-3603-4caa-ab72-e6c06c232d3f.png");'
-            ></div>
-            <div>
-              <p class="text-[#0e161b] text-base font-medium leading-normal">Marketing</p>
-              <p class="text-[#507a95] text-sm font-normal leading-normal">Stanford University</p>
-            </div>
-          </div>
-          <div class="flex flex-col gap-3 pb-3">
-            <div
-              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
-              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/0ab48e51-c924-41c2-839b-4859a4da85aa.png");'
-            ></div>
-            <div>
-              <p class="text-[#0e161b] text-base font-medium leading-normal">Engineering</p>
-              <p class="text-[#507a95] text-sm font-normal leading-normal">University of Sydney</p>
-            </div>
-          </div>
-          <div class="flex flex-col gap-3 pb-3">
-            <div
-              class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
-              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/f4b14baa-1de6-4a29-8796-7cbedeebf9e6.png");'
-            ></div>
-            <div>
-              <p class="text-[#0e161b] text-base font-medium leading-normal">MBA</p>
-              <p class="text-[#507a95] text-sm font-normal leading-normal">Oxford University</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="flex gap-2 border-t border-[#e8eef3] bg-[#f8fafb] px-4 pb-3 pt-2">
-          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-[#0e161b]" href="#">
-            <div class="text-[#0e161b] flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="fill">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                <path
-                  d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"
-                ></path>
-              </svg>
-            </div>
-            <p class="text-[#0e161b] text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
-          </a>
-          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#507a95]" href="#">
-            <div class="text-[#507a95] flex h-8 items-center justify-center" data-icon="Bookmark" data-size="24px" data-weight="regular">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                <path
-                  d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,16V161.57l-51.77-32.35a8,8,0,0,0-8.48,0L72,161.56V48ZM132.23,177.22a8,8,0,0,0-8.48,0L72,209.57V180.43l56-35,56,35v29.14Z"
-                ></path>
-              </svg>
-            </div>
-            <p class="text-[#507a95] text-xs font-medium leading-normal tracking-[0.015em]">Services</p>
-          </a>
-          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#507a95]" href="#">
-            <div class="text-[#507a95] flex h-8 items-center justify-center" data-icon="Globe" data-size="24px" data-weight="regular">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                <path
-                  d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM101.63,168h52.74C149,186.34,140,202.87,128,215.89,116,202.87,107,186.34,101.63,168ZM98,152a145.72,145.72,0,0,1,0-48h60a145.72,145.72,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.79a161.79,161.79,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154.37,88H101.63C107,69.66,116,53.13,128,40.11,140,53.13,149,69.66,154.37,88Zm19.84,16h38.46a88.15,88.15,0,0,1,0,48H174.21a161.79,161.79,0,0,0,0-48Zm32.16-16H170.94a142.39,142.39,0,0,0-20.26-45A88.37,88.37,0,0,1,206.37,88ZM105.32,43A142.39,142.39,0,0,0,85.06,88H49.63A88.37,88.37,0,0,1,105.32,43ZM49.63,168H85.06a142.39,142.39,0,0,0,20.26,45A88.37,88.37,0,0,1,49.63,168Zm101.05,45a142.39,142.39,0,0,0,20.26-45h35.43A88.37,88.37,0,0,1,150.68,213Z"
-                ></path>
-              </svg>
-            </div>
-            <p class="text-[#507a95] text-xs font-medium leading-normal tracking-[0.015em]">Locations</p>
-          </a>
-          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#507a95]" href="#">
-            <div class="text-[#507a95] flex h-8 items-center justify-center" data-icon="Person" data-size="24px" data-weight="regular">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                <path
-                  d="M160,40a32,32,0,1,0-32,32A32,32,0,0,0,160,40ZM128,56a16,16,0,1,1,16-16A16,16,0,0,1,128,56Zm90.34,78.05L173.17,82.83a32,32,0,0,0-24-10.83H106.83a32,32,0,0,0-24,10.83L37.66,134.05a20,20,0,0,0,28.13,28.43l16.3-13.08L65.55,212.28A20,20,0,0,0,102,228.8l26-44.87,26,44.87a20,20,0,0,0,36.41-16.52L173.91,149.4l16.3,13.08a20,20,0,0,0,28.13-28.43Zm-11.51,16.77a4,4,0,0,1-5.66,0c-.21-.2-.42-.4-.65-.58L165,121.76A8,8,0,0,0,152.26,130L175.14,217a7.72,7.72,0,0,0,.48,1.35,4,4,0,1,1-7.25,3.38,6.25,6.25,0,0,0-.33-.63L134.92,164a8,8,0,0,0-13.84,0L88,221.05a6.25,6.25,0,0,0-.33.63,4,4,0,0,1-2.26,2.07,4,4,0,0,1-5-5.45,7.72,7.72,0,0,0,.48-1.35L103.74,130A8,8,0,0,0,91,121.76L55.48,150.24c-.23.18-.44.38-.65.58a4,4,0,1,1-5.66-5.65c.12-.12.23-.24.34-.37L94.83,93.41a16,16,0,0,1,12-5.41h42.34a16,16,0,0,1,12,5.41l45.32,51.39c.11.13.22.25.34.37A4,4,0,0,1,206.83,150.82Z"
-                ></path>
-              </svg>
-            </div>
-            <p class="text-[#507a95] text-xs font-medium leading-normal tracking-[0.015em]">About Us</p>
-          </a>
-          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#507a95]" href="#">
-            <div class="text-[#507a95] flex h-8 items-center justify-center" data-icon="ChatTeardrop" data-size="24px" data-weight="regular">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
-                <path d="M132,24A100.11,100.11,0,0,0,32,124v84.33A15.69,15.69,0,0,0,47.67,224H132a100,100,0,0,0,0-200Zm0,184H48V124a84,84,0,1,1,84,84Z"></path>
-              </svg>
-            </div>
-            <p class="text-[#507a95] text-xs font-medium leading-normal tracking-[0.015em]">Contact Us</p>
-          </a>
-        </div>
-        <div class="h-5 bg-[#f8fafb]"></div>
-      </div>
-    </div>
-  </body>
-</html>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Inline Style -->
+  <style>
+    body {
+      font-family: 'Lexend', 'Noto Sans', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[#f8fafb] min-h-screen flex flex-col justify-between">
+
+  <!-- Header -->
+  <header class="bg-[#f8fafb] p-4 flex justify-between items-center">
+    <h1 class="text-[#0e161b] text-lg font-bold text-center flex-1">Study Abroad</h1>
+    <button class="w-12 h-12 flex justify-center items-center text-[#0e161b]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+        <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+      </svg>
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col items-center justify-center bg-cover bg-center text-white text-center p-8" style="background-image: url('https://cdn.usegalileo.ai/stability/39cd63cf-a43f-45cf-b95a-b8265979faa1.png');">
+    <h1 class="text-4xl font-bold mb-2">Explore the world with us</h1>
+    <p class="text-sm mb-4">We offer a variety of programs and services to help you achieve your academic and professional goals.</p>
+    <button class="bg-[#2c99e2] px-4 py-2 rounded-xl text-white font-bold hover:bg-blue-600">
+      Get started
+    </button>
+  </section>
+
+  <!-- Services Section -->
+  <section class="p-8">
+    <h2 class="text-[#0e161b] text-3xl font-bold mb-4">Our Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <!-- Service 1 -->
+     
